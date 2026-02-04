@@ -4,6 +4,26 @@
 
 ---
 
+## Make It Your Own
+
+After cloning, remove the original remote and create your own GitHub repository:
+
+**Windows (PowerShell)**
+```powershell
+git remote remove origin
+gh repo create cc-fundamentals-05-skills --public --source=. --remote=origin --push
+```
+
+**Mac / Linux**
+```bash
+git remote remove origin
+gh repo create cc-fundamentals-05-skills --public --source=. --remote=origin --push
+```
+
+> **Prerequisite:** Install the [GitHub CLI](https://cli.github.com/) — `winget install GitHub.cli` (Windows) or `brew install gh` (Mac), then run `gh auth login` once.
+
+---
+
 ## Before We Start
 
 Commands are single-file instructions. Skills are complete capability packages with scripts, references, and workflows. If commands are recipe cards, skills are entire cookbooks.
